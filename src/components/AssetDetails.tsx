@@ -57,7 +57,7 @@ export const AssetDetails = () => {
                         <div className="col-md-4"></div>
                             <div className="col-md-4">
                                 <section>
-                                <Card style={{ width: '20rem' }}>
+                                <Card >
                                     {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                                     <Card.Body>
                                         <Card.Title>Asset Details</Card.Title>

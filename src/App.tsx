@@ -7,11 +7,11 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-      <Route exact path="/">
-          <AssetDetails />
-        </Route>
         <Route path="/asset/:AssetId">
             <AssetDetails />
+        </Route>
+        <Route path="/">
+          <AssetDetails />
         </Route>
       </Switch>
     </BrowserRouter>
