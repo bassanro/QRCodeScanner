@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+.login_container {
+  font-family: Lato, sans-serif;
+  height: 83px;
+  border-color: #003C5E;
+  background-color: #003C5E;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #124F6B;
+  line-height: 1.1;
+}
+h4 {
+  color: #9E9E9E;
+  line-height: 1.1;
+}
+li {
+  display: none;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.brand {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 20px;
+  padding: 0 15px;
+  color: #fff;
+  float: left;
+}
+.brand_logo {
+  float: left;
+}
+  .brand_logo img {
+      max-height: 60px;
+      vertical-align: middle;
+      margin-top: 16px
+  }
+.login_content {
+  /* min-height: calc(100vh - 284px); */
+  min-height: calc(100vh - 484px); 
+  margin-top: 100px;
+}
+.btn-default {
+  color: #fff;
+  background-color: #5CB85C;
+  border-color: #4CAE4C;
+}
+.login_footer {
+  background-color: #EEEEEE;
+  height: 64px;
+}
+.formSubmit {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.submitCheckbox {
+}
+.submitButton {
+  width: 70%
+}
+.submitButton button {
+  width: 100%;
+}
